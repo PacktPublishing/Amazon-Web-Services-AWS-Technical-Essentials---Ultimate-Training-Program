@@ -1,0 +1,10 @@
+Readme First
+To complete the lab in your own AWS Account, you will need to create two additional Security Groups in the IaaS-Omega-VPC.
+
+Bastion-Host-SG
+Create a Security Group configured in the above VPC.  Enable Inbound Rules for Port 3389 from the Internet.  This will allow you to remotely access the server from the Internet
+
+Windows-Srv-SG
+Create another Security Group configured in the above VPC.  This Security Group will be used to access App Servers in the Private Subnet.  To follow best practices, ensure that the source of the inbound rule is set to allow port 3389, BUT only from a source that is the 'Bastion-Host-SG' security group.
+
+This means that the only way to connect to servers associated with this security group is to first connect to the Bastion Host Server and from there connect to the App Server in the Private Subnet
