@@ -1,0 +1,4 @@
+Database Endpoint - <make a note of your database endpoint from the RDS Dashboard>
+Database Name - <database name>
+Username - <database username>
+Password - <database password>

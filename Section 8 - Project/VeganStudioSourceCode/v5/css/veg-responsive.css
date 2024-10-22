@@ -1,0 +1,200 @@
+@media (min-width:1366px){
+	.container{max-width:1336px;}
+	.container.in{max-width:1280px;}
+}
+
+@media (min-width:1440px){
+	.container{max-width:1410px;}
+}
+
+@media (min-width:1600px){
+	.container{max-width:1560px;}
+}
+
+@media (max-width:1599px){
+	.slogan p{font-size:20px;}
+	.recipe.googey{height:500px;background-size: 1608px auto;}
+	.recipe.googey .recipe-box{margin: 70px 70px 0 0;}
+	footer p{font-size:20px;}
+	#main #counter span{padding-top:11px;}
+	#main #counter span em{margin-top:0;}
+	#main #counter:before, #main #counter:after{height:88px;}
+	#main #counter .countdown-section .countdown-amount{padding-top:0;}
+	.inner-banner{height:580px;background-size:1800px auto;}
+	.inner-banner p {font-size:30px;padding: 40px 100px;}
+	.contest .contest-wrap ul li,.contest .contest-wrap .col h3,.contest .contest-wrap .col p{font-size:18px;}
+	.inner-page h2{font-size:46px;}
+	.day-zone.in{padding-top:53px;}
+
+
+}
+
+@media (max-width:1439px){
+	.inner-banner{height:550px;background-size:1708px auto;}
+	.inner-banner p {font-size:28px;padding: 35px 90px;}
+	.contest .contest-wrap ul li,.contest .contest-wrap .col h3,.contest .contest-wrap .col p{font-size:16px;}
+	.inner-page h2{font-size:42px;}
+	.day-zone.in{padding-top:42px;width:962px;}
+	.counting .counting-in{height:400px;background-size: 1320px auto;}
+}
+
+@media (max-width:1365px){
+	.slogan p{font-size:18px;}
+	.logo figure img{width:300px;}
+	.recipe-form .btn{font-size:20px;}
+	.recipe.googey{height:450px;background-size: 1454px auto;}
+	.recipe.googey .recipe-box{margin: 70px 0 0 0;padding:25px;}
+	.recipe.googey .recipe-box h3{font-size:20px;margin-bottom:15px;}
+	.recipe.googey .recipe-box p {font-size: 15px;line-height: 32px;margin-bottom: 25px;}
+	footer p{font-size:18px;}
+	#main #counter span{font-size:54px;padding-top:11px;}
+	#main #counter:before, #main #counter:after{height:74px;margin-top: -6px}
+	.coming-soon .day-zone {padding: 60px 53px 0 0;width: 452px;}
+	#main #counter span em{margin-top:0;}
+	#main #counter .countdown-section .countdown-amount{font-size:28px;}
+	#main #counter .countdown-section .countdown-period{font-size:16px;}
+	.section-wrap{padding:50px 0;}
+	.inner-page h2{font-size:38px;}
+	.day-zone.in{padding-top:54px;}
+	.counting{padding-bottom:60px;}
+
+}
+
+@media (max-width:1199px){
+	.slogan p{font-size:16px;}
+	.logo figure img{width:250px;}
+	.recipe-form .btn{font-size:18px;}
+	.recipe-form .form-control{font-size:12px;height:40px;}
+	.recipe.googey .recipe-box .btn{font-size:18px;}
+	#main #counter span {font-size: 48px;padding-top: 8px;}
+	#main #counter{height:85px;}
+	#main #counter:before, #main #counter:after {height: 60px;margin-top: 0;}
+	#main #counter span em{font-size:10px;line-height:13px;}
+	#main #counter .countdown-section .countdown-period{font-size:13px;}
+	.inner-banner{height:500px;background-size:1550px auto;}
+	.inner-banner p {font-size:26px;padding: 30px 80px;}
+	.contest .contest-wrap ul li,.contest .contest-wrap .col h3,.contest .contest-wrap .col p{font-size:14px;}
+	.counting .counting-in {height: 350px;background-size: 980px auto;}
+	.day-zone.in{padding-top:0;width:714px;}
+	#main #counter .contest-end .countdown-section .countdown-amount{font-size:60px;}
+	#main #counter .contest-end .countdown-section .countdown-period{font-size:24px;}
+	.counting {padding-bottom: 0;}
+	.contest .contest-wrap ul li{padding-left:60px;}
+	#main #counter {height:128px;}
+	#main #counter:before,#main #counter:after {height:128px;}
+
+}
+
+@media (max-width:991px){
+	.month .month-item h3{font-size:18px;min-height: 44px;}
+	.month .month-item figure {margin-bottom: 20px;}
+	.recipe.googey .recipe-box{margin-top:55px;width:500px;}
+	footer p{font-size:16px;}
+	#main #counter span {padding-top: 9px;}
+	.inner-banner p {font-size:24px;padding: 25px 70px;}
+	.section-wrap{padding:40px 0;}
+	.inner-page h2{font-size:34px;}
+	.counting .counting-in {height: 270px;background-size: 750px auto;padding-top:30px;}
+	.day-zone.in{width:540px;padding-top: 5px;}
+	#main #counter .contest-end .countdown-section .countdown-amount{font-size:45px;}
+	#main #counter .contest-end .countdown-section .countdown-period{font-size:20px;}
+	.contest .contest-wrap ul li{float:none;width:100%;padding-bottom:5px;padding-left:0;}
+	#main #counter {height:95px;}
+	#main #counter:before,#main #counter:after {height:95px;}
+	#defaultCountdown .countdown-row{padding-top:0 !important;}
+
+}
+
+@media (max-width:767px){
+	.recipe.googey {height: 400px;background-size: 1290px auto;}
+	.recipe.googey .recipe-box{float:none;width:420px;margin:0 auto;top:50px;}
+	.recipe.googey .recipe-box p {font-size: 14px;line-height: 26px;margin-bottom: 20px;}
+	footer p {font-size: 14px;}
+	.inner-banner{height:450px;background-size:1400px auto;}
+	.inner-banner p {font-size:20px;padding: 20px 60px;}
+	.section-wrap{padding:30px 0;}
+	.recipe-form .form-control{height:35px;}
+	.recipe-form textarea.form-control {height: 100px;}
+	.contest .contest-wrap{padding-bottom:0;margin-left:-15px;margin-right:-15px;}
+	.contest .contest-wrap .col{width:100%;padding-left: 15px;padding-right: 15px;padding-bottom:20px;}
+	.contest .contest-wrap ul {padding-left: 15px;padding-right: 15px;}
+	.inner-page h2{font-size:30px;margin-bottom:25px;}
+	.counting .counting-in {height: 200px;background-size: 555px auto;padding-top: 18px;}
+	.day-zone.in {width: 400px;padding-top: 0;}
+	#main #counter .contest-end .countdown-section .countdown-amount{font-size:35px;}
+	#main #counter .contest-end .countdown-section .countdown-period{font-size:12px;}
+	#main #counter {height:68px;}
+	#main #counter:before,#main #counter:after {height:68px;}
+	#main #counter .countdown-section{padding-top:4px}
+
+}
+
+@media (max-width:575px){
+	.slogan p {font-size: 14px;}
+	.logo figure img {width: 200px;}
+	#main #counter span {padding-top: 10px;}
+	#main #counter .countdown-section .countdown-amount{font-size:22px;}
+	#main #counter .countdown-section .countdown-period{font-size:10px;}
+	.inner-banner{height:400px;background-size:1240px auto;}
+	.inner-banner p {font-size:18px;padding: 15px 40px;margin-top:100px;}
+	.inner-banner p br{display:none;}
+	.recipe-form textarea.form-control {height: 80px;}
+	.contest .contest-wrap{margin-left:0;margin-right:0;}
+	.contest .contest-wrap ul li,.contest .contest-wrap .col h3,.contest .contest-wrap .col p{font-size:13px;}
+	.contest .contest-wrap ul{margin-bottom:15px;}
+	.contest .contest-wrap .col h3{margin-bottom:5px;}
+	.contest .contest-wrap .col{padding-bottom:15px;}
+	.inner-page h2{font-size:26px;margin-bottom:20px;}
+	.counting .counting-in {height: 160px;background-size: 400px auto;padding-top: 8px;}
+	.day-zone.in {width: 276px;padding-top: 0;margin-left: -8px;margin-top: -5px;}
+	#main #counter .contest-end .countdown-section .countdown-amount{font-size:28px;}
+	#main #counter .contest-end .countdown-section .countdown-period{font-size:10px;}
+	#main #counter {height:54px;}
+	#main #counter:before,#main #counter:after {height:54px;}
+	#main #counter .countdown-section{padding-top:2px}
+
+}
+
+@media (max-width:479px){
+	.slogan{padding:8px 0;}
+	.logo {padding: 12px 0 15px;margin-bottom: 2px;}
+	.recipe-form .btn {font-size: 16px;}
+	.recipe.googey .recipe-box {width: 360px;top: 38px;padding:20px 15px;}
+	.recipe.googey .recipe-box h3{margin-bottom:15px;}
+	.recipe.googey .recipe-box p {font-size: 14px;line-height: 24px;margin-bottom: 15px;}
+	.recipe.googey .recipe-box .btn {font-size: 16px;}
+	.recipe.googey,.recipe.googey {height: 342px;background-size: 1110px auto;}
+	footer p {font-size: 13px;}
+	#main #counter:before, #main #counter:after {height: 62px;}
+	#main #counter:after{right:-8px;}
+	#defaultCountdown{padding:0 16px;}
+
+}
+
+@media (max-width:413px){
+	.slogan{padding:6px 0;}
+	.slogan p {font-size: 12px;}
+	.recipe.googey .recipe-box {width:100%;}
+	.recipe.googey .recipe-box h3 {font-size: 18px}
+	.recipe.googey {height: 390px;background-size: 1250px auto;}
+	.recipe.googey .recipe-box .btn {font-size: 14px;}
+	footer p {font-size: 12px;}
+	#main #counter:before, #main #counter:after {height: 48px;margin-top: -8px;}
+	#main #counter span {font-size: 34px;padding-top: 3px;}
+	#main #counter span em{font-size:8px;}
+	#main #counter .countdown-section .countdown-amount{font-size:18px;}
+	#main #counter .countdown-section .countdown-period{font-size:8px;}
+	.inner-banner {height: 350px;background-size: 1090px auto;}
+	.inner-banner p {font-size: 14px;padding: 15px 20px;}
+	.contest .contest-wrap ul li,.contest .contest-wrap .col h3,.contest .contest-wrap .col p{font-size:12px;}
+	.inner-page h2{font-size:22px;margin-bottom:15px;}
+	.counting{padding-top:10px;}
+	.counting .counting-in {height: 115px;background-size: 312px auto;padding-top: 6px;}
+	.day-zone.in {width: 217px;margin-left: -10px;margin-top: 0;}
+	#main #counter .contest-end .countdown-section .countdown-amount{font-size:20px;}
+	#main #counter .contest-end .countdown-section .countdown-period{font-size:9px;}
+	#main #counter {height:48px;}
+	#main #counter:before,#main #counter:after {height:40px;}
+	#main #counter .countdown-section{padding-top:0}
+
+}

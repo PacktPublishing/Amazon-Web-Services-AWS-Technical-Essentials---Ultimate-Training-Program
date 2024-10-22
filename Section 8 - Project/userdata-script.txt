@@ -1,0 +1,24 @@
+#!/bin/bash
+# Update the package repository
+dnf update -y
+
+# Install the necessary packages
+dnf install -y httpd php php-mysqli mariadb105
+
+# Start and enable the Apache service
+systemctl start httpd
+systemctl enable httpd
+
+# Add the ec2-user to the apache group
+usermod -a -G apache ec2-user
+
+# Set ownership and permissions for the web directory
+chown -R ec2-user:apache /var/www
+chmod 2775 /var/www
+
+# Set permissions for directories and files within /var/www
+find /var/www -type d -exec chmod 2775 {} \;
+find /var/www -type f -exec chmod 0664 {} \;
+
+# Copy files from the S3 bucket to the web directory
+aws s3 cp s3://[Source Bucket] /var/www/html --recursive

@@ -1,0 +1,200 @@
+html,body{margin:0;}
+body{font-family: 'poppinsregular';color:#000;margin:0;padding:0;}
+* {box-sizing:border-box;margin:0px; padding:0px;list-style:none;}
+a, a:hover, a:focus {text-decoration:none;outline:0 none;}
+h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6,figure{margin:0;padding:0}
+input,button,select,textarea{outline:inherit !important;}
+.bootstrap-select .btn:focus{outline:inherit !important;}
+.form-control,.form-control:focus{box-shadow:none}
+ul, ul li, ol, ol li{margin:0;padding:0;list-style:none;}
+figure{margin:0;padding:0;}
+.img-responsive{min-width:100%;}
+
+/*common*/
+.pos-rel{position:relative;}
+.btn-wrap {margin:10px 0;}
+.btn{background:#979c37;font-size: 24px;color: #fff !important;font-family: 'poppinssemibold';position: relative;z-index: 1;border:0;padding:8px 20px;}
+.btn:hover {color:#fff;border-color:#979c37;background:#979c37;}
+.btn:after {width: 100%;height: 100%;background:#4e3425;content: "";position: absolute;left: 0;top: 0;z-index: -1;-webkit-transform: scaleX(0);-moz-transform: scaleX(0);-ms-transform: scaleX(0);-o-transform: scaleX(0);transform: scaleX(0);
+	-webkit-transition: all 0.5s;-moz-transition: all 0.5s;-ms-transition: all 0.5s;-o-transition: all 0.5s;transition: all 0.5s;}
+.btn:hover:after {-webkit-transform: scaleX(1);-moz-transform: scaleX(1);-ms-transform: scaleX(1);-o-transform: scaleX(1);transform: scaleX(1);}
+
+.slogan{background:#4e3425;text-align:center;padding:10px 0;}
+.slogan p{font-family:'poppinsmedium';font-size:23px;color:#fff;}
+.logo {padding:15px 0 20px;border-bottom:1px solid #4e3425;margin-bottom:1px !important;}
+.logo figure{text-align:center;}
+.logo figure img{display:inline-block;width:350px;}
+
+footer {padding:15px 0;}
+footer p{text-align:center;color:#3d3d3d;font-size:23px;font-family: 'poppinsregular';}
+
+/* counter */
+#main #counter {position:relative;color: #fff;text-align: center;height:108px;}
+#main #counter:before,#main #counter:after {position:absolute;content:'';top:50%;transform:translateY(-50%);background-repeat:no-repeat;background-size:contain;height:108px;width:25px;}
+#main #counter:before {left:0;background-image:url('../images/bracket-lt.png');background-position:0 0;}
+#main #counter:after {right:0;background-image:url('../images/bracket-rt.png');background-position:right top;}
+#main #counter span {
+	font: 70px/1em 'poppinsregular';
+	display: block;
+	padding: 7px 0 0;
+	min-width: 25%;
+	float: left;	
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, .5);	
+	border-left: 1px dotted rgba(255, 255, 255, .2);	
+}
+#main #counter span:first-child { border-left: none; }
+#main #counter span em {
+	font: 11px/18px 'poppinsregular';
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	margin-top: 12px;	
+	display: block;
+	color: #BCBCBC;
+	color: rgba(255, 255, 255,.6);
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, .7);	
+}
+
+/* mailchimp form */
+#main #mc_embed_signup {
+	clear: both;
+	margin: 48px auto 18px;
+	width: 50%;	
+}
+#main #mc_embed_signup:before,
+#main #mc_embed_signup:after {
+    content: " ";
+    display: table;
+}
+#main #mc_embed_signup:after {
+    clear: both;
+}
+
+#main #mc_embed_signup input {
+	display: inline-block;
+	float: left;
+}
+#main #mc_embed_signup input[type="email"] {	
+	font-size: 15px;
+	height: 54px;
+	line-height: 30px;
+	padding: 12px 15px;
+	border-radius: 3px 0 0 3px;	
+	background: #727272;
+	background: rgba(255, 255, 255, .2);	
+	width: 70%;
+}
+#main #mc_embed_signup input[type="submit"] {
+	font-size: 15px;
+	line-height: 30px;
+	height: 54px;
+	padding: 12px 30px;
+	margin: 0 0 18px 0;
+	border-radius: 0 3px 3px 0;	
+	background: #197C28;
+	background: rgba(25, 124, 40, 1);	
+	width: 30%;	
+}
+#main #mc_embed_signup input[type="submit"]:hover {
+	background: #146320;
+}
+
+
+#defaultCountdown {width: 100%;margin: 0 auto;padding: 0 25px;}
+#defaultCountdown .countdown-row{width: 100%;}
+#main #counter .countdown-section{float:left;width:25%;}
+#main #counter .countdown-section .countdown-amount{font-size:34px;display:block;width:100%;text-align:center;}
+#main #counter .countdown-section .countdown-period{font-size:20px;display:block;width:100%;text-align:center;border-left:0;}
+
+
+/* social links */
+#main .social {
+	clear: both;
+	font-size: 22px;
+   margin: 12px 0 24px;
+   padding: 0;   
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+#main .social li {
+   display: inline-block;
+   margin: 0 12px;
+   padding: 0;
+}
+#main .social li a { color: #fff; }
+#main .social li a:hover { color: #5ea8dc; }
+
+.month .month-item figure {display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    background: #e1e1e1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;border-top-left-radius: 250px;
+     border-top-right-radius: 250px;}
+	.month .month-item figure:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+    color: white;
+}.month .month-item figure:before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(78, 52, 37,0.5);;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.month .month-item figure:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+
+/* Customer Recipe */
+.section-wrap{padding:60px 0;}
+.inner-page h2{font-family:'poppinsmedium';font-size:52px;color:#979c37;margin-bottom:30px;text-transform:uppercase;text-align:center;}
+.inner-banner{background:url('../images/customer-recipe/banner.jpg') no-repeat center top;height:619px;text-align:center;}
+.inner-banner p{margin-top:160px;background:rgba(0,0,0,0.7);padding:45px 120px;border-radius:120px;font-family:'poppinsmedium';font-size:35px;color:#fff;display:inline-block;}
+.counting {background:#f1ebdb;padding-top:15px;padding-bottom:100px;}
+.counting .counting-in {background:url('../images/customer-recipe/counting-bg.jpg') no-repeat center top;height:420px;padding-top:62px;}
+.day-zone.in{width:1000px;display:inline-block;padding-top:45px;}
+#main #counter .contest-end .countdown-section .countdown-amount{font-family:'poppinslight' !important;font-size:68px;}
+#main #counter .contest-end .countdown-section .countdown-period{font-family:'poppinslight' !important;font-size:30px;}
+#main #counter {height:165px;}
+#main #counter:before,#main #counter:after {height:165px;width:39px;background-size:contain;}
+#main #counter:before {background-image:url('../images/customer-recipe/bracket-lt.png');}
+#main #counter:after {background-image:url('../images/customer-recipe/bracket-rt.png');}
+.recipe-form .form-control{font-size:14px;height:44px;background:#f4eeee;border:1px solid #cccccc;border-radius:6px;}
+.recipe-form textarea.form-control{height:120px;}
+.recipe-form .btn {border: 1px solid #4e3425;}
+.contest{background:#f1ebdb;}
+.contest .contest-wrap{background:#fff;padding-bottom:20px;margin-left:-20px;margin-right:-20px;}
+.contest .contest-wrap.even{background:#f9f6f6;}
+.contest .contest-wrap ul {padding:12px 20px;background:#cbcd9b	;margin-bottom:20px;}
+.contest .contest-wrap.even ul {background:#cbcd9b;}
+.contest .contest-wrap ul li{float:left;padding-left:80px;font-size:21px;color:#000;}
+.contest .contest-wrap ul li:first-child{padding-left:0;}
+.contest .contest-wrap ul li b{font-family: 'poppinssemibold';padding-left:5px;}
+.contest .contest-wrap .col{float:left;width:50%;padding-left:20px;padding-right:20px;}
+.contest .contest-wrap .col h3{font-family: 'poppinssemibold';font-size:21px;color:#000;margin-bottom:10px;}
+.contest .contest-wrap .col p{font-size:21px;color:#000;}
+
+.recipe.googey{background:url('../images/customer-recipe/gooey-chocolate-bg.jpg') no-repeat left top;height:597px;}
+.recipe.googey .recipe-box{position:relative;width:600px;background:rgba(241,235,219,0.8);float:right;padding:35px;margin:100px 100px 0 0;border-radius:4px;text-align:center;}
+.recipe.googey .recipe-box:before{position:absolute;content:'';border:1px solid #fff;border-radius:4px;width:100%;height:110%;top:-5%;left:-3%;}
+.recipe.googey .recipe-box h3{color:#4e3425;font-family: 'poppinsbold';font-size:23px;margin-bottom:30px;}
+.recipe.googey .recipe-box p{color:#000;font-size:16px;line-height:32px;margin-bottom:30px;}
+.recipe.googey .recipe-box .btn{border:1px solid #4e3425;}
+.recipe.googey .recipe-box h3{color:#4e3425;font-family: 'poppinsbold';font-size:23px;margin-bottom:20px;}
+.recipe.googey{background-image:url('../images/customer-recipe/gooey-chocolate-bg.jpg');background-position:left top;height:597px;}

@@ -1,1 +1,0 @@
-https://github.com/iaasacademy/aws-how-to-guide/tree/main/LambdaEC2StartStop

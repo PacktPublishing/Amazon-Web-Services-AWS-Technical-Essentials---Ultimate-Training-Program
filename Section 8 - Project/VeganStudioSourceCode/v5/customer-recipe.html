@@ -1,0 +1,130 @@
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Vegan Studio - Customer Recipe</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/veg-styles.css" rel="stylesheet">
+<link href="css/veg-responsive.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.plugin.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+$(function () {
+	var austDay = new Date();
+	austDay = new Date(austDay.getFullYear(), 28 - 1, 12);
+	$('#defaultCountdown').countdown({until: austDay});
+	$('#year').text(austDay.getFullYear());
+});
+</script>
+ </head>
+ <body>
+  <section class="wrapper inner-page">
+	 <section class="slogan"><p>Celebrating Plant-based Goodness</p></section>
+	 <section class="logo"><!-- logo-->
+		 <section class="container">
+			<figure><img src="images/logo.png"  alt=""></figure>
+		 </section>
+	 </section><!-- ./logo-->
+
+	 <section class="inner-banner"><!--Banner-->
+		 <section class="container">
+			<p>Submit your favorite Vegan Recipes<br> and if you are lucky,<br> We will publish it on our website</p>
+		 </section>
+	 </section><!-- ./Banner-->
+
+	 <section class="counting"><!--Counting-->
+		<section class="counting-in"><!--Counting-->
+			 <section class="container in text-center">
+				<h2>Contest Ends in</h2>
+				<aside class="day-zone in" id="main">				
+					<div id="counter" class="cf clearfix">
+						<div id="defaultCountdown" class="contest-end"></div>
+   					</div>	
+				</aside>
+			 </section>
+		</section>
+	 </section><!-- ./Counting-->
+
+	 <section class="recipe-form section-wrap"><!--Form-->
+	 	<form id="contest-form" action="javascript:void(0);" onsubmit="javascript:submitForm()">
+		 <section class="container in">
+	 		<div id="alert_placeholder" class='text-center'></div>
+			<section class="row"><!--Form-row1-->
+				<aside class="col-md-4">
+					<section class="form-group">
+						<input type="text" placeholder="NAME" required id="name" class="form-control">
+					</section>
+				</aside>
+				<aside class="col-md-4">
+					<section class="form-group">
+						<input type="email" placeholder="EMAIL" required id="email" class="form-control">
+					</section>
+				</aside>
+				<aside class="col-md-4">
+					<section class="form-group">
+						<input type="text" placeholder="RECIPE NAME" required id="recipe_name" class="form-control">
+					</section>
+				</aside>
+			</section><!--./Form-row1-->
+			<section class="row"><!--Form-row2-->
+				<aside class="col-md-4">
+					<section class="form-group">
+						<textarea type="text" placeholder="INGREDIENTS" required id="ingredients" class="form-control"></textarea>
+					</section>
+				</aside>
+				<aside class="col-md-4">
+					<section class="form-group">
+						<textarea type="text" placeholder="METHOD" required id="method" class="form-control"></textarea>
+					</section>
+				</aside>
+				<aside class="col-md-4">
+					<section class="form-group">
+						<input type="text" placeholder="REGION" required id="region" class="form-control">
+					</section>
+					<section class="btn-wrap">
+						<button class="btn btn-primary" type="submit" id="contest-submit"> SUBMIT</button>	
+					</section>
+				</aside>
+			</section><!--./Form-row2-->
+		 </section>
+		 </form>
+	 </section><!-- ./Form-->
+
+	 <section class="contest section-wrap"><!--Contest-->
+		 <section class="container in">
+			<h2>Vegan Studio Contest</h2>
+			<div id="contest-items"></div>
+		 </section>
+	 </section><!-- ./Contest-->	 
+
+	 <section class="recipe googey"><!--Recipe-->
+		 <section class="container">
+			<section class="recipe-box">
+				<h3>GOOEY CHOCOLATE ORANGE BROWNIES</h3>
+				<p>Get the recipe for our gooey chocolate orange brownies with bursts of orange flavour, which cut through the richness of the chocolate nicely</p>
+				<section class="btn-wrap">
+					<a class="btn btn-primary">View More</a>	
+				</section>
+			</section>			
+		 </section>
+	 </section><!-- ./Recipe-->
+	 <footer><!-- Footer-->
+		 <section class="container">
+			<p>Copyright &copy 2020 The Vegan Studio &reg;</p>
+		 </section>
+	 </footer><!-- ./Footer-->	
+  </section>
+ </body>
+</html>
