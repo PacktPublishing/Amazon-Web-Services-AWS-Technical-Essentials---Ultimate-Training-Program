@@ -1,0 +1,2 @@
+GitHub Repository with all sample codes and policies:
+https://github.com/iaasacademy/aws-how-to-guide/tree/main/aws-session-manager

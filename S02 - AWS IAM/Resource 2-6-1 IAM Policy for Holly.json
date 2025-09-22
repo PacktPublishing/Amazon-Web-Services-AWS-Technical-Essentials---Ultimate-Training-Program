@@ -1,0 +1,23 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "BucketActions",
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetObject",
+				"s3:ListBucket"
+			],
+			"Resource": [
+				"[Amazon S3 Bucket ARN]",
+				"[Amazon S3 Bucket ARN]/*"
+			]
+		},
+		{
+			"Sid": "ListBucketsInAccount",
+			"Effect": "Allow",
+			"Action": "s3:ListAllMyBuckets",
+			"Resource": "*"
+		}
+	]
+}

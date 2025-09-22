@@ -1,2 +1,0 @@
-Automatically Start Stop EC2 Instances with AWS Lambda and Amazon EventBridge:
-https://github.com/iaasacademy/aws-how-to-guide/tree/main/LambdaEC2StartStop

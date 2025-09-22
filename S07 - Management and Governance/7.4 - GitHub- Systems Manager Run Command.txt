@@ -1,0 +1,2 @@
+GitHub Repository with all sanmple codes and policies:
+https://github.com/iaasacademy/aws-how-to-guide/tree/main/AWS%20System%20Manager%20Run%20Command
